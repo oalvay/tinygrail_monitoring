@@ -1,8 +1,8 @@
 # 小圣杯监测脚本
-本程序使用命令行运行，目前只能监测一个角色。  
+本程序为python脚本，目前只能监测一个角色。  
 使用过程中如想退出或重来，按`Ctrl + c`即可。
 
+macos 可直接运行 `monitoring`  
+原脚本 `monitoring.py` 推荐在python版本>=3.6以上运行，同时保证运行环境接入互联网。
 
-Windows 用户请运行 `monitoring.exe`  
-macos/linux 用户请运行 `monitoring`  
-如有安装python3，也可直接python运行 `monitoring.py`
+已知该脚本在Windows上有严重的bug，会在`开始监测`后重复之前所有步骤，导致监测无法开始。
