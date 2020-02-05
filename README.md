@@ -2,7 +2,7 @@
 本程序为python脚本，目的为辅助找出使用脚本挂单的用户。  
 使用过程中如想退出或重来，按`Ctrl + c`即可。
 
-macos 可直接运行 `monitoring`  
+MacOS用户可直接运行 `monitoring` 文件  
 原脚本 `monitoring.py` 推荐在python版本>=3.6以上运行，同时保证运行环境接入互联网。
 
 已知该脚本在Windows上有严重的bug，会在`开始监测`后重复之前所有步骤，导致监测无法开始。
