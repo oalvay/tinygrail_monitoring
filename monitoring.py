@@ -59,6 +59,12 @@ while temp != 'done':
     else:
         print("格式错误，请重新", end='')
     
+for ii in whitelist:
+    try:
+        holders.remove(ii)
+    except:
+        continue
+
 print(f"\n你的白名单：{', '.join(whitelist)}\n按确认键继续", end = "")
 input()
 
