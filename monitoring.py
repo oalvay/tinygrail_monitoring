@@ -68,8 +68,10 @@ for ii in whitelist:
 print(f"\n你的白名单：{', '.join(whitelist)}\n按确认键继续", end = "")
 input()
 
-sleeping = try_until("\n你希望脚本多久监测一次？输入秒数（推荐至少20秒）：")
+sleeping_ = try_until("\n你希望脚本多久监测一次？输入秒数（推荐至少20秒）：")
+sleeping = int(str(sleeping_))
 
+del chara_, try_until
 # initialization finished
 ####################################
 
