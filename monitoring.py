@@ -24,8 +24,8 @@ def try_until(input_, error_ = ValueError, if_num = True):
         except error_:
             print(f"格式错误，请重新{input_}", end='')
     return output_
-chara = try_until("输入你要监测的角色id：")
-
+chara_ = try_until("输入你要监测的角色id：")
+chara = int(str(chara_))
 try:
     Name = get_text(f'{api}chara/{chara}/')['Value']['Name']
 except KeyError:
