@@ -7,10 +7,10 @@
  可执行文件由`pyinstaller`生成，可能出现各种bug，以下为解决方案：
  
  + 打开 https://repl.it/ 
- + 点击最右上角的 `+ new repl`
+ + 点击网页最右上角的 `+ new repl`
  + 使用 `python` 而非 `python2.7` 创建一个repl。
  + 将 `monitoring_r.py` 里的代码复制到新创建的repl中
- + 点击正上方的 `run` 来运行
+ + 点击网页正上方的 `run` 来运行
  
  注：第一次运行需要初始化，请耐心等待即可
  
