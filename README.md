@@ -2,9 +2,10 @@
 本程序为python脚本，目的为辅助找出使用脚本挂单的用户。 
 使用过程中如想退出或重来，按`Ctrl + c`即可。
 
-目前只支持电脑端使用：
-MacOS用户可直接运行 `monitoring_r` 文件  
-Windows用户可直接运行 `monitoring_nr.exe` 文件  
+目前只支持电脑端使用：  
+
++ MacOS用户可直接运行 `monitoring_r` 文件  
++ Windows用户可直接运行 `monitoring_nr.exe` 文件  
 
 原脚本 `monitoring_r.py` 推荐在python版本>=3.6以上运行，需安装`requests`库，同时保证运行环境接入互联网。
 
