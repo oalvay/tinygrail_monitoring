@@ -1,7 +1,8 @@
 # 小圣杯监测脚本
-本程序为python脚本，目的为辅助找出使用脚本挂单的用户。  
+本程序为python脚本，目的为辅助找出使用脚本挂单的用户。 
 使用过程中如想退出或重来，按`Ctrl + c`即可。
 
+目前只支持电脑端使用：
 MacOS用户可直接运行 `monitoring_r` 文件  
 Windows用户可直接运行 `monitoring_nr.exe` 文件  
 
