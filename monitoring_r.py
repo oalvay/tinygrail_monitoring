@@ -68,7 +68,7 @@ for ii in whitelist:
 print(f"\n你的白名单：{', '.join(whitelist)}\n按确认键继续", end = "")
 input()
 
-sleeping_ = try_until("\n你希望脚本多久监测一次？输入秒数（推荐至少20秒）：")
+sleeping_ = try_until("\n你希望脚本多久监测一次？输入秒数（推荐至少15秒，秒数越低越不稳定）：")
 sleeping = int(str(sleeping_))
 
 del chara_, try_until
@@ -102,7 +102,7 @@ while True:
         cash_now = check_cash(holders)
 
         if (now['Price'] != before['Price']) | (now['Amount'] != before['Amount']):
-            content = f"买一价格变动：{before['Price']}-->{now['Price']}\n"
+            content = f"买一价格变动：{before['Price']}cc-->{now['Price']}cc\n"
             content += f"买一数量变动：{before['Amount']}-->{now['Amount']}\n"
             changes = [cash_before[i] - cash_now[i] for i in range(len(cash_now))]
             content += "以下用户现金有变动：\n"
